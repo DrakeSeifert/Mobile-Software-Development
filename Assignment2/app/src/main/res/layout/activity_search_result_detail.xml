@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.connectedweather.SearchResultDetailActivity">
+
+    <TextView
+        android:id="@+id/tv_search_result_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="40sp"
+        android:text="Detailed view name :)" />
+
+    <TextView
+        android:id="@+id/tv_search_result_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="22sp"
+        android:text="Detailed view humidity" />
+
+    <TextView
+        android:id="@+id/tv_search_result_wind_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="22sp"
+        android:text="Detailed view wind speed"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Corvallis Weather</string>
+
+    <string name="loading_error_message">Failed to execute search. Check internet connection.</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_map">Map</string>
+
+    <string name="share_weather">Choose an app to share the weather</string>
+    <string name="share_weather_prefix">Check out the weather!</string>
+</resources>
